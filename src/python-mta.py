@@ -6,7 +6,7 @@ from dataclasses import dataclass
 import requests as http
 import pandas as pd # Used for flattening JSON and parsing
 
-import gtfs_realtime_pb2
+import gtfs_realtime_pb2_3_21 as gtfs
 from google.protobuf.json_format import MessageToJson
 
 # Subway Endpoints
@@ -34,7 +34,7 @@ class MTAHttpClient:
 
         resp = http.get(endpoint, headers=headers)
 
-        gfeed = gtfs_realtime_pb2.FeedMessage()
+        gfeed = gtfs.FeedMessage()
 
         gfeed.ParseFromString(resp.content)
 
@@ -98,7 +98,7 @@ def main():
 
     full_feed = api.subway(ACE.url).getFullFeed()
 
-    subway_stop = api.subway(ACE.url).getSubwayStop('A02N')
+    subway_stop = api.subway(ACE.url).getSubwayStop('A12N')
 
     print(subway_stop)
 
