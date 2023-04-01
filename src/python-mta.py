@@ -9,7 +9,7 @@ import requests as http
 import pandas as pd
 import json
 
-import gtfs_realtime_pb2
+import gtfs_realtime_pb2 as gtfs
 from google.protobuf.json_format import MessageToJson
 
 
@@ -60,8 +60,8 @@ class Api(object):
 
         resp = http.get(endpoint, headers=headers)
 
-        gfeed = gtfs_realtime_pb2.FeedMessage()
-
+        gfeed = gtfs.FeedMessage()
+    
         gfeed.ParseFromString(resp.content)
 
         return gfeed
