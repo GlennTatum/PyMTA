@@ -1,0 +1,8817 @@
+header {
+  gtfs_realtime_version: "1.0"
+  incrementality: FULL_DATASET
+  timestamp: 1680310561
+}
+entity {
+  id: "1"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "122250_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 59
+        time: 1680310634
+        uncertainty: 0
+      }
+      departure {
+        delay: 59
+        time: 1680310649
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 59
+        time: 1680310694
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "2"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "122250_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 22
+    current_status: STOPPED_AT
+    timestamp: 1680310546
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L28S"
+  }
+}
+entity {
+  id: "3"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "122400_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: -107
+        time: 1680310558
+        uncertainty: 0
+      }
+      departure {
+        delay: -107
+        time: 1680310573
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: -107
+        time: 1680310648
+        uncertainty: 0
+      }
+      departure {
+        delay: -107
+        time: 1680310663
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: -107
+        time: 1680310798
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "4"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "122400_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 21
+    current_status: STOPPED_AT
+    timestamp: 1680310546
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L03N"
+  }
+}
+entity {
+  id: "5"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "122650_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 117
+        time: 1680310542
+        uncertainty: 0
+      }
+      departure {
+        delay: 117
+        time: 1680310557
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 128
+        time: 1680310643
+        uncertainty: 0
+      }
+      departure {
+        delay: 128
+        time: 1680310658
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 128
+        time: 1680310703
+        uncertainty: 0
+      }
+      departure {
+        delay: 128
+        time: 1680310718
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 113
+        time: 1680310778
+        uncertainty: 0
+      }
+      departure {
+        delay: 128
+        time: 1680310808
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 128
+        time: 1680310928
+        uncertainty: 0
+      }
+      departure {
+        delay: 128
+        time: 1680310958
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 128
+        time: 1680310988
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "6"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "122650_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 18
+    current_status: STOPPED_AT
+    timestamp: 1680310540
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L24S"
+  }
+}
+entity {
+  id: "7"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "122800_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: -135
+        time: 1680310635
+        uncertainty: 0
+      }
+      departure {
+        delay: -150
+        time: 1680310650
+        uncertainty: 0
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: -135
+        time: 1680310695
+        uncertainty: 0
+      }
+      departure {
+        delay: -150
+        time: 1680310710
+        uncertainty: 0
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: -135
+        time: 1680310755
+        uncertainty: 0
+      }
+      departure {
+        delay: -150
+        time: 1680310770
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: -150
+        time: 1680310830
+        uncertainty: 0
+      }
+      departure {
+        delay: -150
+        time: 1680310860
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: -150
+        time: 1680310980
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "8"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "122800_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 19
+    current_status: IN_TRANSIT_TO
+    timestamp: 1680310546
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L06N"
+  }
+}
+entity {
+  id: "9"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "123050_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: -4
+        time: 1680310541
+        uncertainty: 0
+      }
+      departure {
+        delay: -4
+        time: 1680310556
+        uncertainty: 0
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: -1
+        time: 1680310604
+        uncertainty: 0
+      }
+      departure {
+        delay: -1
+        time: 1680310619
+        uncertainty: 0
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: -1
+        time: 1680310664
+        uncertainty: 0
+      }
+      departure {
+        delay: -1
+        time: 1680310679
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: -1
+        time: 1680310754
+        uncertainty: 0
+      }
+      departure {
+        delay: -1
+        time: 1680310769
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: -1
+        time: 1680310799
+        uncertainty: 0
+      }
+      departure {
+        delay: -1
+        time: 1680310829
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: -1
+        time: 1680310889
+        uncertainty: 0
+      }
+      departure {
+        delay: -1
+        time: 1680310919
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: -1
+        time: 1680311039
+        uncertainty: 0
+      }
+      departure {
+        delay: -1
+        time: 1680311069
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: -1
+        time: 1680311099
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "10"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "123050_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 16
+    current_status: STOPPED_AT
+    timestamp: 1680310555
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L21S"
+  }
+}
+entity {
+  id: "11"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "123200_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: -184
+        time: 1680310541
+        uncertainty: 0
+      }
+      departure {
+        delay: -184
+        time: 1680310556
+        uncertainty: 0
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: -156
+        time: 1680310644
+        uncertainty: 0
+      }
+      departure {
+        delay: -171
+        time: 1680310659
+        uncertainty: 0
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: -171
+        time: 1680310839
+        uncertainty: 0
+      }
+      departure {
+        delay: -171
+        time: 1680310869
+        uncertainty: 0
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: -171
+        time: 1680310899
+        uncertainty: 0
+      }
+      departure {
+        delay: -171
+        time: 1680310929
+        uncertainty: 0
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: -171
+        time: 1680310959
+        uncertainty: 0
+      }
+      departure {
+        delay: -171
+        time: 1680310989
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: -171
+        time: 1680311049
+        uncertainty: 0
+      }
+      departure {
+        delay: -171
+        time: 1680311079
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: -171
+        time: 1680311199
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "12"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "123200_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 17
+    current_status: STOPPED_AT
+    timestamp: 1680310540
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L10N"
+  }
+}
+entity {
+  id: "13"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "123450_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: -36
+        time: 1680310659
+        uncertainty: 0
+      }
+      departure {
+        delay: -36
+        time: 1680310674
+        uncertainty: 0
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: -21
+        time: 1680310749
+        uncertainty: 0
+      }
+      departure {
+        delay: -36
+        time: 1680310764
+        uncertainty: 0
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: -36
+        time: 1680310794
+        uncertainty: 0
+      }
+      departure {
+        delay: -36
+        time: 1680310824
+        uncertainty: 0
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: -36
+        time: 1680310854
+        uncertainty: 0
+      }
+      departure {
+        delay: -36
+        time: 1680310884
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: -36
+        time: 1680310944
+        uncertainty: 0
+      }
+      departure {
+        delay: -36
+        time: 1680310974
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: -36
+        time: 1680311004
+        uncertainty: 0
+      }
+      departure {
+        delay: -36
+        time: 1680311034
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: -36
+        time: 1680311094
+        uncertainty: 0
+      }
+      departure {
+        delay: -36
+        time: 1680311124
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: -36
+        time: 1680311244
+        uncertainty: 0
+      }
+      departure {
+        delay: -36
+        time: 1680311274
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: -36
+        time: 1680311304
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "14"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "123450_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 15
+    current_status: IN_TRANSIT_TO
+    timestamp: 1680310546
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L20S"
+  }
+}
+entity {
+  id: "15"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "123600_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: -52
+        time: 1680310613
+        uncertainty: 0
+      }
+      departure {
+        delay: -52
+        time: 1680310628
+        uncertainty: 0
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: -52
+        time: 1680310703
+        uncertainty: 0
+      }
+      departure {
+        delay: -52
+        time: 1680310718
+        uncertainty: 0
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: -37
+        time: 1680310763
+        uncertainty: 0
+      }
+      departure {
+        delay: -52
+        time: 1680310778
+        uncertainty: 0
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: -52
+        time: 1680310838
+        uncertainty: 0
+      }
+      departure {
+        delay: -52
+        time: 1680310868
+        uncertainty: 0
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: -52
+        time: 1680310898
+        uncertainty: 0
+      }
+      departure {
+        delay: -52
+        time: 1680310928
+        uncertainty: 0
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: -52
+        time: 1680310988
+        uncertainty: 0
+      }
+      departure {
+        delay: -52
+        time: 1680311018
+        uncertainty: 0
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: -52
+        time: 1680311198
+        uncertainty: 0
+      }
+      departure {
+        delay: -52
+        time: 1680311228
+        uncertainty: 0
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: -52
+        time: 1680311258
+        uncertainty: 0
+      }
+      departure {
+        delay: -52
+        time: 1680311288
+        uncertainty: 0
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: -52
+        time: 1680311318
+        uncertainty: 0
+      }
+      departure {
+        delay: -52
+        time: 1680311348
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: -52
+        time: 1680311408
+        uncertainty: 0
+      }
+      departure {
+        delay: -52
+        time: 1680311438
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: -52
+        time: 1680311558
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "16"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "123600_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 13
+    current_status: IN_TRANSIT_TO
+    timestamp: 1680310557
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L14N"
+  }
+}
+entity {
+  id: "17"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "123850_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 49
+        time: 1680310564
+        uncertainty: 0
+      }
+      departure {
+        delay: 49
+        time: 1680310579
+        uncertainty: 0
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 43
+        time: 1680310648
+        uncertainty: 0
+      }
+      departure {
+        delay: 43
+        time: 1680310663
+        uncertainty: 0
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 43
+        time: 1680310738
+        uncertainty: 0
+      }
+      departure {
+        delay: 43
+        time: 1680310753
+        uncertainty: 0
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 43
+        time: 1680310813
+        uncertainty: 0
+      }
+      departure {
+        delay: 43
+        time: 1680310843
+        uncertainty: 0
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 43
+        time: 1680310963
+        uncertainty: 0
+      }
+      departure {
+        delay: 43
+        time: 1680310993
+        uncertainty: 0
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 43
+        time: 1680311053
+        uncertainty: 0
+      }
+      departure {
+        delay: 43
+        time: 1680311083
+        uncertainty: 0
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 43
+        time: 1680311113
+        uncertainty: 0
+      }
+      departure {
+        delay: 43
+        time: 1680311143
+        uncertainty: 0
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 43
+        time: 1680311173
+        uncertainty: 0
+      }
+      departure {
+        delay: 43
+        time: 1680311203
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 43
+        time: 1680311263
+        uncertainty: 0
+      }
+      departure {
+        delay: 43
+        time: 1680311293
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 43
+        time: 1680311323
+        uncertainty: 0
+      }
+      departure {
+        delay: 43
+        time: 1680311353
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 43
+        time: 1680311413
+        uncertainty: 0
+      }
+      departure {
+        delay: 43
+        time: 1680311443
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 43
+        time: 1680311563
+        uncertainty: 0
+      }
+      departure {
+        delay: 43
+        time: 1680311593
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 43
+        time: 1680311623
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "18"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "123850_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 11
+    current_status: STOPPED_AT
+    timestamp: 1680310540
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L15S"
+  }
+}
+entity {
+  id: "19"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "124000_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: -33
+        time: 1680310572
+        uncertainty: 0
+      }
+      departure {
+        delay: -33
+        time: 1680310587
+        uncertainty: 0
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: -33
+        time: 1680310662
+        uncertainty: 0
+      }
+      departure {
+        delay: -33
+        time: 1680310677
+        uncertainty: 0
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: -18
+        time: 1680310752
+        uncertainty: 0
+      }
+      departure {
+        delay: -33
+        time: 1680310767
+        uncertainty: 0
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: -33
+        time: 1680310857
+        uncertainty: 0
+      }
+      departure {
+        delay: -33
+        time: 1680310887
+        uncertainty: 0
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: -33
+        time: 1680310947
+        uncertainty: 0
+      }
+      departure {
+        delay: -33
+        time: 1680310977
+        uncertainty: 0
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: -33
+        time: 1680311007
+        uncertainty: 0
+      }
+      departure {
+        delay: -33
+        time: 1680311037
+        uncertainty: 0
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: -33
+        time: 1680311097
+        uncertainty: 0
+      }
+      departure {
+        delay: -33
+        time: 1680311127
+        uncertainty: 0
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: -33
+        time: 1680311157
+        uncertainty: 0
+      }
+      departure {
+        delay: -33
+        time: 1680311187
+        uncertainty: 0
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: -33
+        time: 1680311247
+        uncertainty: 0
+      }
+      departure {
+        delay: -33
+        time: 1680311277
+        uncertainty: 0
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: -33
+        time: 1680311457
+        uncertainty: 0
+      }
+      departure {
+        delay: -33
+        time: 1680311487
+        uncertainty: 0
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: -33
+        time: 1680311517
+        uncertainty: 0
+      }
+      departure {
+        delay: -33
+        time: 1680311547
+        uncertainty: 0
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: -33
+        time: 1680311577
+        uncertainty: 0
+      }
+      departure {
+        delay: -33
+        time: 1680311607
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: -33
+        time: 1680311667
+        uncertainty: 0
+      }
+      departure {
+        delay: -33
+        time: 1680311697
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: -33
+        time: 1680311817
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "20"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "124000_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 10
+    current_status: STOPPED_AT
+    timestamp: 1680310546
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L17N"
+  }
+}
+entity {
+  id: "21"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "124250_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: -3
+        time: 1680310542
+        uncertainty: 0
+      }
+      departure {
+        delay: -3
+        time: 1680310557
+        uncertainty: 0
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 9
+        time: 1680310644
+        uncertainty: 0
+      }
+      departure {
+        delay: 9
+        time: 1680310659
+        uncertainty: 0
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 9
+        time: 1680310764
+        uncertainty: 0
+      }
+      departure {
+        delay: 9
+        time: 1680310779
+        uncertainty: 0
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 9
+        time: 1680310839
+        uncertainty: 0
+      }
+      departure {
+        delay: 9
+        time: 1680310869
+        uncertainty: 0
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 9
+        time: 1680310929
+        uncertainty: 0
+      }
+      departure {
+        delay: 9
+        time: 1680310959
+        uncertainty: 0
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 9
+        time: 1680311019
+        uncertainty: 0
+      }
+      departure {
+        delay: 9
+        time: 1680311049
+        uncertainty: 0
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 9
+        time: 1680311169
+        uncertainty: 0
+      }
+      departure {
+        delay: 9
+        time: 1680311199
+        uncertainty: 0
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 9
+        time: 1680311259
+        uncertainty: 0
+      }
+      departure {
+        delay: 9
+        time: 1680311289
+        uncertainty: 0
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 9
+        time: 1680311319
+        uncertainty: 0
+      }
+      departure {
+        delay: 9
+        time: 1680311349
+        uncertainty: 0
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 9
+        time: 1680311379
+        uncertainty: 0
+      }
+      departure {
+        delay: 9
+        time: 1680311409
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 9
+        time: 1680311469
+        uncertainty: 0
+      }
+      departure {
+        delay: 9
+        time: 1680311499
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 9
+        time: 1680311529
+        uncertainty: 0
+      }
+      departure {
+        delay: 9
+        time: 1680311559
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 9
+        time: 1680311619
+        uncertainty: 0
+      }
+      departure {
+        delay: 9
+        time: 1680311649
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 9
+        time: 1680311769
+        uncertainty: 0
+      }
+      departure {
+        delay: 9
+        time: 1680311799
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 9
+        time: 1680311829
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "22"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "124250_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 9
+    current_status: STOPPED_AT
+    timestamp: 1680310540
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L13S"
+  }
+}
+entity {
+  id: "23"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "124400_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 39
+        time: 1680310584
+        uncertainty: 0
+      }
+      departure {
+        delay: 39
+        time: 1680310599
+        uncertainty: 0
+      }
+      stop_id: "L21N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 10
+        time: 1680310645
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680310660
+        uncertainty: 0
+      }
+      stop_id: "L20N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 10
+        time: 1680310765
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680310780
+        uncertainty: 0
+      }
+      stop_id: "L19N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 10
+        time: 1680310840
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680310870
+        uncertainty: 0
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 10
+        time: 1680310930
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680310960
+        uncertainty: 0
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 10
+        time: 1680311020
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680311050
+        uncertainty: 0
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 10
+        time: 1680311140
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680311170
+        uncertainty: 0
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 10
+        time: 1680311230
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680311260
+        uncertainty: 0
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 10
+        time: 1680311290
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680311320
+        uncertainty: 0
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 10
+        time: 1680311380
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680311410
+        uncertainty: 0
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 10
+        time: 1680311440
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680311470
+        uncertainty: 0
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 10
+        time: 1680311530
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680311560
+        uncertainty: 0
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 10
+        time: 1680311740
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680311770
+        uncertainty: 0
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 10
+        time: 1680311800
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680311830
+        uncertainty: 0
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 10
+        time: 1680311860
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680311890
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 10
+        time: 1680311950
+        uncertainty: 0
+      }
+      departure {
+        delay: 10
+        time: 1680311980
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 10
+        time: 1680312100
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "24"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "124400_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 7
+    current_status: STOPPED_AT
+    timestamp: 1680310547
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L21N"
+  }
+}
+entity {
+  id: "25"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "124650_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: -19
+        time: 1680310556
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680310571
+        uncertainty: 0
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: -19
+        time: 1680310616
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680310631
+        uncertainty: 0
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: -19
+        time: 1680310706
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680310721
+        uncertainty: 0
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: -4
+        time: 1680310766
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680310781
+        uncertainty: 0
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: -19
+        time: 1680310841
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680310871
+        uncertainty: 0
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: -19
+        time: 1680310961
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680310991
+        uncertainty: 0
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: -19
+        time: 1680311051
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680311081
+        uncertainty: 0
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: -19
+        time: 1680311141
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680311171
+        uncertainty: 0
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: -19
+        time: 1680311231
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680311261
+        uncertainty: 0
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: -19
+        time: 1680311381
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680311411
+        uncertainty: 0
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: -19
+        time: 1680311471
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680311501
+        uncertainty: 0
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: -19
+        time: 1680311531
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680311561
+        uncertainty: 0
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: -19
+        time: 1680311591
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680311621
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: -19
+        time: 1680311681
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680311711
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: -19
+        time: 1680311741
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680311771
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: -19
+        time: 1680311831
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680311861
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: -19
+        time: 1680311981
+        uncertainty: 0
+      }
+      departure {
+        delay: -19
+        time: 1680312011
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: -19
+        time: 1680312041
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "26"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "124650_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 6
+    current_status: STOPPED_AT
+    timestamp: 1680310540
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L10S"
+  }
+}
+entity {
+  id: "27"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "124800_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 246
+        time: 1680310611
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680310626
+        uncertainty: 0
+      }
+      stop_id: "L26N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 246
+        time: 1680310671
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680310686
+        uncertainty: 0
+      }
+      stop_id: "L25N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 246
+        time: 1680310761
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680310776
+        uncertainty: 0
+      }
+      stop_id: "L24N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 231
+        time: 1680310956
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680310986
+        uncertainty: 0
+      }
+      stop_id: "L22N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 246
+        time: 1680311016
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680311046
+        uncertainty: 0
+      }
+      stop_id: "L21N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 246
+        time: 1680311106
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680311136
+        uncertainty: 0
+      }
+      stop_id: "L20N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 246
+        time: 1680311226
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680311256
+        uncertainty: 0
+      }
+      stop_id: "L19N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 246
+        time: 1680311316
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680311346
+        uncertainty: 0
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 246
+        time: 1680311406
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680311436
+        uncertainty: 0
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 246
+        time: 1680311496
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680311526
+        uncertainty: 0
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 246
+        time: 1680311616
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680311646
+        uncertainty: 0
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 246
+        time: 1680311706
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680311736
+        uncertainty: 0
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 246
+        time: 1680311766
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680311796
+        uncertainty: 0
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 246
+        time: 1680311856
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680311886
+        uncertainty: 0
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 246
+        time: 1680311916
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680311946
+        uncertainty: 0
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 246
+        time: 1680312006
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680312036
+        uncertainty: 0
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 246
+        time: 1680312216
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680312246
+        uncertainty: 0
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 246
+        time: 1680312276
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680312306
+        uncertainty: 0
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 246
+        time: 1680312336
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680312366
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 246
+        time: 1680312426
+        uncertainty: 0
+      }
+      departure {
+        delay: 246
+        time: 1680312456
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 246
+        time: 1680312576
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "28"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "124800_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 3
+    current_status: IN_TRANSIT_TO
+    timestamp: 1680310560
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L26N"
+  }
+}
+entity {
+  id: "29"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "125050_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: -18
+        time: 1680310707
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680310722
+        uncertainty: 0
+      }
+      stop_id: "L08S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: -18
+        time: 1680310782
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680310812
+        uncertainty: 0
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: -18
+        time: 1680310842
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680310872
+        uncertainty: 0
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: -18
+        time: 1680310932
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680310962
+        uncertainty: 0
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: -18
+        time: 1680310992
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680311022
+        uncertainty: 0
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: -18
+        time: 1680311082
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680311112
+        uncertainty: 0
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: -18
+        time: 1680311202
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680311232
+        uncertainty: 0
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: -18
+        time: 1680311292
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680311322
+        uncertainty: 0
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: -18
+        time: 1680311382
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680311412
+        uncertainty: 0
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: -18
+        time: 1680311472
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680311502
+        uncertainty: 0
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: -18
+        time: 1680311622
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680311652
+        uncertainty: 0
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: -18
+        time: 1680311712
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680311742
+        uncertainty: 0
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: -18
+        time: 1680311772
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680311802
+        uncertainty: 0
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: -18
+        time: 1680311832
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680311862
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: -18
+        time: 1680311922
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680311952
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: -18
+        time: 1680311982
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680312012
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: -18
+        time: 1680312072
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680312102
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: -18
+        time: 1680312222
+        uncertainty: 0
+      }
+      departure {
+        delay: -18
+        time: 1680312252
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: -18
+        time: 1680312282
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "30"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "125050_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 5
+    current_status: IN_TRANSIT_TO
+    timestamp: 1680310546
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L08S"
+  }
+}
+entity {
+  id: "31"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "125400_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680310440
+        uncertainty: 0
+      }
+      stop_id: "L29N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680310515
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680310530
+        uncertainty: 0
+      }
+      stop_id: "L28N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680310635
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680310650
+        uncertainty: 0
+      }
+      stop_id: "L27N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680310725
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680310740
+        uncertainty: 0
+      }
+      stop_id: "L26N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680310770
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680310800
+        uncertainty: 0
+      }
+      stop_id: "L25N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680310860
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680310890
+        uncertainty: 0
+      }
+      stop_id: "L24N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680311070
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311100
+        uncertainty: 0
+      }
+      stop_id: "L22N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680311130
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311160
+        uncertainty: 0
+      }
+      stop_id: "L21N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680311220
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311250
+        uncertainty: 0
+      }
+      stop_id: "L20N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680311340
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311370
+        uncertainty: 0
+      }
+      stop_id: "L19N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680311430
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311460
+        uncertainty: 0
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680311520
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311550
+        uncertainty: 0
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680311610
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311640
+        uncertainty: 0
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680311730
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311760
+        uncertainty: 0
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680311820
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311850
+        uncertainty: 0
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680311880
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311910
+        uncertainty: 0
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680311970
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312000
+        uncertainty: 0
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680312030
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312060
+        uncertainty: 0
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680312120
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312150
+        uncertainty: 0
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680312330
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312360
+        uncertainty: 0
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680312390
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312420
+        uncertainty: 0
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680312450
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312480
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680312540
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312570
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680312690
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "32"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "125400_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 0
+    current_status: STOPPED_AT
+    timestamp: 1680310560
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L29N"
+  }
+}
+entity {
+  id: "33"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "125450_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680310545
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680310560
+        uncertainty: 0
+      }
+      stop_id: "L02S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 7
+        time: 1680310642
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680310657
+        uncertainty: 0
+      }
+      stop_id: "L03S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 7
+        time: 1680310702
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680310717
+        uncertainty: 0
+      }
+      stop_id: "L05S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 7
+        time: 1680310762
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680310777
+        uncertainty: 0
+      }
+      stop_id: "L06S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 7
+        time: 1680310957
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680310987
+        uncertainty: 0
+      }
+      stop_id: "L08S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 7
+        time: 1680311047
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680311077
+        uncertainty: 0
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 7
+        time: 1680311107
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680311137
+        uncertainty: 0
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 7
+        time: 1680311197
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680311227
+        uncertainty: 0
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 7
+        time: 1680311257
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680311287
+        uncertainty: 0
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 7
+        time: 1680311347
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680311377
+        uncertainty: 0
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 7
+        time: 1680311467
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680311497
+        uncertainty: 0
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 7
+        time: 1680311557
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680311587
+        uncertainty: 0
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 7
+        time: 1680311647
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680311677
+        uncertainty: 0
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 7
+        time: 1680311737
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680311767
+        uncertainty: 0
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 7
+        time: 1680311887
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680311917
+        uncertainty: 0
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 7
+        time: 1680311977
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680312007
+        uncertainty: 0
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 7
+        time: 1680312037
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680312067
+        uncertainty: 0
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 7
+        time: 1680312097
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680312127
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 7
+        time: 1680312187
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680312217
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 7
+        time: 1680312247
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680312277
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 7
+        time: 1680312337
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680312367
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 7
+        time: 1680312487
+        uncertainty: 0
+      }
+      departure {
+        delay: 7
+        time: 1680312517
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 7
+        time: 1680312547
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "34"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "125450_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 1
+    current_status: STOPPED_AT
+    timestamp: 1680310540
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L02S"
+  }
+}
+entity {
+  id: "35"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "125850_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680310710
+        uncertainty: 0
+      }
+      stop_id: "L01S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680310770
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680310800
+        uncertainty: 0
+      }
+      stop_id: "L02S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680310860
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680310890
+        uncertainty: 0
+      }
+      stop_id: "L03S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680310920
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680310950
+        uncertainty: 0
+      }
+      stop_id: "L05S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680310980
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311010
+        uncertainty: 0
+      }
+      stop_id: "L06S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680311190
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311220
+        uncertainty: 0
+      }
+      stop_id: "L08S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680311280
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311310
+        uncertainty: 0
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680311340
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311370
+        uncertainty: 0
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680311430
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311460
+        uncertainty: 0
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680311490
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311520
+        uncertainty: 0
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680311580
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311610
+        uncertainty: 0
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680311700
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311730
+        uncertainty: 0
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680311790
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311820
+        uncertainty: 0
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680311880
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311910
+        uncertainty: 0
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680311970
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312000
+        uncertainty: 0
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680312120
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312150
+        uncertainty: 0
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680312210
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312240
+        uncertainty: 0
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680312270
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312300
+        uncertainty: 0
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680312330
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312360
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680312420
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312450
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680312480
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312510
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680312570
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312600
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680312720
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312750
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680312780
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "36"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "125850_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 0
+    current_status: STOPPED_AT
+    timestamp: 1680310560
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L01S"
+  }
+}
+entity {
+  id: "37"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "126000_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680310800
+        uncertainty: 0
+      }
+      stop_id: "L29N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680310860
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680310890
+        uncertainty: 0
+      }
+      stop_id: "L28N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680310980
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311010
+        uncertainty: 0
+      }
+      stop_id: "L27N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680311070
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311100
+        uncertainty: 0
+      }
+      stop_id: "L26N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680311130
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311160
+        uncertainty: 0
+      }
+      stop_id: "L25N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680311220
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311250
+        uncertainty: 0
+      }
+      stop_id: "L24N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680311430
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311460
+        uncertainty: 0
+      }
+      stop_id: "L22N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680311490
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311520
+        uncertainty: 0
+      }
+      stop_id: "L21N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680311580
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311610
+        uncertainty: 0
+      }
+      stop_id: "L20N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680311700
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311730
+        uncertainty: 0
+      }
+      stop_id: "L19N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680311790
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311820
+        uncertainty: 0
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680311880
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311910
+        uncertainty: 0
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680311970
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312000
+        uncertainty: 0
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680312090
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312120
+        uncertainty: 0
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680312180
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312210
+        uncertainty: 0
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680312240
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312270
+        uncertainty: 0
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680312330
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312360
+        uncertainty: 0
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680312390
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312420
+        uncertainty: 0
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680312480
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312510
+        uncertainty: 0
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680312690
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312720
+        uncertainty: 0
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680312750
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312780
+        uncertainty: 0
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680312810
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312840
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680312900
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312930
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680313050
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "38"
+  is_deleted: false
+  vehicle {
+    trip {
+      trip_id: "126000_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    current_stop_sequence: 0
+    current_status: STOPPED_AT
+    timestamp: 1680310560
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "L29N"
+  }
+}
+entity {
+  id: "39"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "126250_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680310950
+        uncertainty: 0
+      }
+      stop_id: "L01S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680311010
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311040
+        uncertainty: 0
+      }
+      stop_id: "L02S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680311100
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311130
+        uncertainty: 0
+      }
+      stop_id: "L03S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680311160
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311190
+        uncertainty: 0
+      }
+      stop_id: "L05S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680311220
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311250
+        uncertainty: 0
+      }
+      stop_id: "L06S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680311430
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311460
+        uncertainty: 0
+      }
+      stop_id: "L08S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680311520
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311550
+        uncertainty: 0
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680311580
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311610
+        uncertainty: 0
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680311670
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311700
+        uncertainty: 0
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680311730
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311760
+        uncertainty: 0
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680311820
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311850
+        uncertainty: 0
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680311940
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311970
+        uncertainty: 0
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680312030
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312060
+        uncertainty: 0
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680312120
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312150
+        uncertainty: 0
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680312210
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312240
+        uncertainty: 0
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680312360
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312390
+        uncertainty: 0
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680312450
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312480
+        uncertainty: 0
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680312510
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312540
+        uncertainty: 0
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680312570
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312600
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680312660
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312690
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680312720
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312750
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680312810
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312840
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680312930
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312960
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680312990
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "40"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "126400_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680311040
+        uncertainty: 0
+      }
+      stop_id: "L29N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680311100
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311130
+        uncertainty: 0
+      }
+      stop_id: "L28N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680311220
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311250
+        uncertainty: 0
+      }
+      stop_id: "L27N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680311310
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311340
+        uncertainty: 0
+      }
+      stop_id: "L26N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680311370
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311400
+        uncertainty: 0
+      }
+      stop_id: "L25N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680311460
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311490
+        uncertainty: 0
+      }
+      stop_id: "L24N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680311670
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311700
+        uncertainty: 0
+      }
+      stop_id: "L22N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680311730
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311760
+        uncertainty: 0
+      }
+      stop_id: "L21N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680311820
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311850
+        uncertainty: 0
+      }
+      stop_id: "L20N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680311940
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311970
+        uncertainty: 0
+      }
+      stop_id: "L19N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680312030
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312060
+        uncertainty: 0
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680312120
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312150
+        uncertainty: 0
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680312210
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312240
+        uncertainty: 0
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680312330
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312360
+        uncertainty: 0
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680312420
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312450
+        uncertainty: 0
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680312480
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312510
+        uncertainty: 0
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680312570
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312600
+        uncertainty: 0
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680312630
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312660
+        uncertainty: 0
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680312720
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312750
+        uncertainty: 0
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680312930
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312960
+        uncertainty: 0
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680312990
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313020
+        uncertainty: 0
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680313050
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313080
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680313140
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313170
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680313290
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "41"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "126650_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680311190
+        uncertainty: 0
+      }
+      stop_id: "L01S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680311250
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311280
+        uncertainty: 0
+      }
+      stop_id: "L02S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680311340
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311370
+        uncertainty: 0
+      }
+      stop_id: "L03S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680311400
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311430
+        uncertainty: 0
+      }
+      stop_id: "L05S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680311460
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311490
+        uncertainty: 0
+      }
+      stop_id: "L06S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680311670
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311700
+        uncertainty: 0
+      }
+      stop_id: "L08S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680311760
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311790
+        uncertainty: 0
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680311820
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311850
+        uncertainty: 0
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680311910
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311940
+        uncertainty: 0
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680311970
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312000
+        uncertainty: 0
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680312060
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312090
+        uncertainty: 0
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680312180
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312210
+        uncertainty: 0
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680312270
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312300
+        uncertainty: 0
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680312360
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312390
+        uncertainty: 0
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680312450
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312480
+        uncertainty: 0
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680312600
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312630
+        uncertainty: 0
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680312690
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312720
+        uncertainty: 0
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680312750
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312780
+        uncertainty: 0
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680312810
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312840
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680312900
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312930
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680312960
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312990
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680313050
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313080
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680313170
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313200
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680313230
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "42"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "126800_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680311280
+        uncertainty: 0
+      }
+      stop_id: "L29N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680311340
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311370
+        uncertainty: 0
+      }
+      stop_id: "L28N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680311460
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311490
+        uncertainty: 0
+      }
+      stop_id: "L27N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680311550
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311580
+        uncertainty: 0
+      }
+      stop_id: "L26N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680311610
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311640
+        uncertainty: 0
+      }
+      stop_id: "L25N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680311700
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311730
+        uncertainty: 0
+      }
+      stop_id: "L24N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680311910
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311940
+        uncertainty: 0
+      }
+      stop_id: "L22N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680311970
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312000
+        uncertainty: 0
+      }
+      stop_id: "L21N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680312060
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312090
+        uncertainty: 0
+      }
+      stop_id: "L20N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680312180
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312210
+        uncertainty: 0
+      }
+      stop_id: "L19N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680312270
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312300
+        uncertainty: 0
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680312360
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312390
+        uncertainty: 0
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680312450
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312480
+        uncertainty: 0
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680312570
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312600
+        uncertainty: 0
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680312660
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312690
+        uncertainty: 0
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680312720
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312750
+        uncertainty: 0
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680312810
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312840
+        uncertainty: 0
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680312870
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312900
+        uncertainty: 0
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680312960
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312990
+        uncertainty: 0
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680313170
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313200
+        uncertainty: 0
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680313230
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313260
+        uncertainty: 0
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680313290
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313320
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680313380
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313410
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680313530
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "43"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "127050_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680311430
+        uncertainty: 0
+      }
+      stop_id: "L01S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680311490
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311520
+        uncertainty: 0
+      }
+      stop_id: "L02S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680311580
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311610
+        uncertainty: 0
+      }
+      stop_id: "L03S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680311640
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311670
+        uncertainty: 0
+      }
+      stop_id: "L05S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680311700
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311730
+        uncertainty: 0
+      }
+      stop_id: "L06S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680311910
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311940
+        uncertainty: 0
+      }
+      stop_id: "L08S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680312000
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312030
+        uncertainty: 0
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680312060
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312090
+        uncertainty: 0
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680312150
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312180
+        uncertainty: 0
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680312210
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312240
+        uncertainty: 0
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680312300
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312330
+        uncertainty: 0
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680312420
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312450
+        uncertainty: 0
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680312510
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312540
+        uncertainty: 0
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680312600
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312630
+        uncertainty: 0
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680312690
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312720
+        uncertainty: 0
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680312840
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312870
+        uncertainty: 0
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680312930
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312960
+        uncertainty: 0
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680312990
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313020
+        uncertainty: 0
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680313050
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313080
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680313140
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313170
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680313200
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313230
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680313290
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313320
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680313410
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313440
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680313470
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "44"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "127200_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680311520
+        uncertainty: 0
+      }
+      stop_id: "L29N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680311580
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311610
+        uncertainty: 0
+      }
+      stop_id: "L28N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680311700
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311730
+        uncertainty: 0
+      }
+      stop_id: "L27N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680311790
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311820
+        uncertainty: 0
+      }
+      stop_id: "L26N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680311850
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311880
+        uncertainty: 0
+      }
+      stop_id: "L25N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680311940
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311970
+        uncertainty: 0
+      }
+      stop_id: "L24N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680312150
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312180
+        uncertainty: 0
+      }
+      stop_id: "L22N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680312210
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312240
+        uncertainty: 0
+      }
+      stop_id: "L21N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680312300
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312330
+        uncertainty: 0
+      }
+      stop_id: "L20N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680312420
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312450
+        uncertainty: 0
+      }
+      stop_id: "L19N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680312510
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312540
+        uncertainty: 0
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680312600
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312630
+        uncertainty: 0
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680312690
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312720
+        uncertainty: 0
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680312810
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312840
+        uncertainty: 0
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680312900
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312930
+        uncertainty: 0
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680312960
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312990
+        uncertainty: 0
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680313050
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313080
+        uncertainty: 0
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680313110
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313140
+        uncertainty: 0
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680313200
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313230
+        uncertainty: 0
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680313410
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313440
+        uncertainty: 0
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680313470
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313500
+        uncertainty: 0
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680313530
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313560
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680313620
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313650
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680313770
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "45"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "127450_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680311670
+        uncertainty: 0
+      }
+      stop_id: "L01S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680311730
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311760
+        uncertainty: 0
+      }
+      stop_id: "L02S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680311820
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311850
+        uncertainty: 0
+      }
+      stop_id: "L03S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680311880
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311910
+        uncertainty: 0
+      }
+      stop_id: "L05S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680311940
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311970
+        uncertainty: 0
+      }
+      stop_id: "L06S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680312150
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312180
+        uncertainty: 0
+      }
+      stop_id: "L08S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680312240
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312270
+        uncertainty: 0
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680312300
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312330
+        uncertainty: 0
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680312390
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312420
+        uncertainty: 0
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680312450
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312480
+        uncertainty: 0
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680312540
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312570
+        uncertainty: 0
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680312660
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312690
+        uncertainty: 0
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680312750
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312780
+        uncertainty: 0
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680312840
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312870
+        uncertainty: 0
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680312930
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312960
+        uncertainty: 0
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680313080
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313110
+        uncertainty: 0
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680313170
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313200
+        uncertainty: 0
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680313230
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313260
+        uncertainty: 0
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680313290
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313320
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680313380
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313410
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680313440
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313470
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680313530
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313560
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680313650
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313680
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680313710
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "46"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "127600_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680311760
+        uncertainty: 0
+      }
+      stop_id: "L29N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680311820
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311850
+        uncertainty: 0
+      }
+      stop_id: "L28N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680311940
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680311970
+        uncertainty: 0
+      }
+      stop_id: "L27N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680312030
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312060
+        uncertainty: 0
+      }
+      stop_id: "L26N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680312090
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312120
+        uncertainty: 0
+      }
+      stop_id: "L25N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680312180
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312210
+        uncertainty: 0
+      }
+      stop_id: "L24N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680312390
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312420
+        uncertainty: 0
+      }
+      stop_id: "L22N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680312450
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312480
+        uncertainty: 0
+      }
+      stop_id: "L21N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680312540
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312570
+        uncertainty: 0
+      }
+      stop_id: "L20N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680312660
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312690
+        uncertainty: 0
+      }
+      stop_id: "L19N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680312750
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312780
+        uncertainty: 0
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680312840
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312870
+        uncertainty: 0
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680312930
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312960
+        uncertainty: 0
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680313050
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313080
+        uncertainty: 0
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680313140
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313170
+        uncertainty: 0
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680313200
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313230
+        uncertainty: 0
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680313290
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313320
+        uncertainty: 0
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680313350
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313380
+        uncertainty: 0
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680313440
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313470
+        uncertainty: 0
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680313650
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313680
+        uncertainty: 0
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680313710
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313740
+        uncertainty: 0
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680313770
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313800
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680313860
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313890
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680314010
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "47"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "127850_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680311910
+        uncertainty: 0
+      }
+      stop_id: "L01S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680311970
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312000
+        uncertainty: 0
+      }
+      stop_id: "L02S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680312060
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312090
+        uncertainty: 0
+      }
+      stop_id: "L03S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680312120
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312150
+        uncertainty: 0
+      }
+      stop_id: "L05S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680312180
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312210
+        uncertainty: 0
+      }
+      stop_id: "L06S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680312390
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312420
+        uncertainty: 0
+      }
+      stop_id: "L08S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680312480
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312510
+        uncertainty: 0
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680312540
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312570
+        uncertainty: 0
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680312630
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312660
+        uncertainty: 0
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680312690
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312720
+        uncertainty: 0
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680312780
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312810
+        uncertainty: 0
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680312900
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312930
+        uncertainty: 0
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680312990
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313020
+        uncertainty: 0
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680313080
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313110
+        uncertainty: 0
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680313170
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313200
+        uncertainty: 0
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680313320
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313350
+        uncertainty: 0
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680313410
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313440
+        uncertainty: 0
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680313470
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313500
+        uncertainty: 0
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680313530
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313560
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680313620
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313650
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680313680
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313710
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680313770
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313800
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680313890
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313920
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680313950
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "48"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "128000_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680312000
+        uncertainty: 0
+      }
+      stop_id: "L29N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680312060
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312090
+        uncertainty: 0
+      }
+      stop_id: "L28N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680312180
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312210
+        uncertainty: 0
+      }
+      stop_id: "L27N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680312270
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312300
+        uncertainty: 0
+      }
+      stop_id: "L26N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680312330
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312360
+        uncertainty: 0
+      }
+      stop_id: "L25N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680312420
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312450
+        uncertainty: 0
+      }
+      stop_id: "L24N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680312630
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312660
+        uncertainty: 0
+      }
+      stop_id: "L22N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680312690
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312720
+        uncertainty: 0
+      }
+      stop_id: "L21N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680312780
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312810
+        uncertainty: 0
+      }
+      stop_id: "L20N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680312900
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312930
+        uncertainty: 0
+      }
+      stop_id: "L19N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680312990
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313020
+        uncertainty: 0
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680313080
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313110
+        uncertainty: 0
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680313170
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313200
+        uncertainty: 0
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680313290
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313320
+        uncertainty: 0
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680313380
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313410
+        uncertainty: 0
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680313440
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313470
+        uncertainty: 0
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680313530
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313560
+        uncertainty: 0
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680313590
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313620
+        uncertainty: 0
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680313680
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313710
+        uncertainty: 0
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680313890
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313920
+        uncertainty: 0
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680313950
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313980
+        uncertainty: 0
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680314010
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680314040
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680314100
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680314130
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680314250
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "49"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "128250_L..S"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680312150
+        uncertainty: 0
+      }
+      stop_id: "L01S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680312210
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312240
+        uncertainty: 0
+      }
+      stop_id: "L02S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680312300
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312330
+        uncertainty: 0
+      }
+      stop_id: "L03S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680312360
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312390
+        uncertainty: 0
+      }
+      stop_id: "L05S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680312420
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312450
+        uncertainty: 0
+      }
+      stop_id: "L06S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680312630
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312660
+        uncertainty: 0
+      }
+      stop_id: "L08S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680312720
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312750
+        uncertainty: 0
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680312780
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312810
+        uncertainty: 0
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680312870
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312900
+        uncertainty: 0
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680312930
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312960
+        uncertainty: 0
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680313020
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313050
+        uncertainty: 0
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680313140
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313170
+        uncertainty: 0
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680313230
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313260
+        uncertainty: 0
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680313320
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313350
+        uncertainty: 0
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680313410
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313440
+        uncertainty: 0
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680313560
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313590
+        uncertainty: 0
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680313650
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313680
+        uncertainty: 0
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680313710
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313740
+        uncertainty: 0
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680313770
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313800
+        uncertainty: 0
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680313860
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313890
+        uncertainty: 0
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680313920
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313950
+        uncertainty: 0
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680314010
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680314040
+        uncertainty: 0
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680314130
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680314160
+        uncertainty: 0
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680314190
+        uncertainty: 0
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+entity {
+  id: "50"
+  is_deleted: false
+  trip_update {
+    trip {
+      trip_id: "128400_L..N"
+      start_date: "20230331"
+      schedule_relationship: SCHEDULED
+      route_id: "L"
+      direction_id: 0
+    }
+    stop_time_update {
+      stop_sequence: 0
+      departure {
+        delay: 0
+        time: 1680312240
+        uncertainty: 0
+      }
+      stop_id: "L29N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 1
+      arrival {
+        delay: 0
+        time: 1680312300
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312330
+        uncertainty: 0
+      }
+      stop_id: "L28N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 2
+      arrival {
+        delay: 0
+        time: 1680312420
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312450
+        uncertainty: 0
+      }
+      stop_id: "L27N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 3
+      arrival {
+        delay: 0
+        time: 1680312510
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312540
+        uncertainty: 0
+      }
+      stop_id: "L26N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 4
+      arrival {
+        delay: 0
+        time: 1680312570
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312600
+        uncertainty: 0
+      }
+      stop_id: "L25N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 5
+      arrival {
+        delay: 0
+        time: 1680312660
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312690
+        uncertainty: 0
+      }
+      stop_id: "L24N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 6
+      arrival {
+        delay: 0
+        time: 1680312870
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312900
+        uncertainty: 0
+      }
+      stop_id: "L22N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 7
+      arrival {
+        delay: 0
+        time: 1680312930
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680312960
+        uncertainty: 0
+      }
+      stop_id: "L21N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 8
+      arrival {
+        delay: 0
+        time: 1680313020
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313050
+        uncertainty: 0
+      }
+      stop_id: "L20N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 9
+      arrival {
+        delay: 0
+        time: 1680313140
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313170
+        uncertainty: 0
+      }
+      stop_id: "L19N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 10
+      arrival {
+        delay: 0
+        time: 1680313230
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313260
+        uncertainty: 0
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 11
+      arrival {
+        delay: 0
+        time: 1680313320
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313350
+        uncertainty: 0
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 12
+      arrival {
+        delay: 0
+        time: 1680313410
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313440
+        uncertainty: 0
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 13
+      arrival {
+        delay: 0
+        time: 1680313530
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313560
+        uncertainty: 0
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 14
+      arrival {
+        delay: 0
+        time: 1680313620
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313650
+        uncertainty: 0
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 15
+      arrival {
+        delay: 0
+        time: 1680313680
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313710
+        uncertainty: 0
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 16
+      arrival {
+        delay: 0
+        time: 1680313770
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313800
+        uncertainty: 0
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 17
+      arrival {
+        delay: 0
+        time: 1680313830
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313860
+        uncertainty: 0
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 18
+      arrival {
+        delay: 0
+        time: 1680313920
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680313950
+        uncertainty: 0
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 19
+      arrival {
+        delay: 0
+        time: 1680314130
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680314160
+        uncertainty: 0
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 20
+      arrival {
+        delay: 0
+        time: 1680314190
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680314220
+        uncertainty: 0
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 21
+      arrival {
+        delay: 0
+        time: 1680314250
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680314280
+        uncertainty: 0
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 22
+      arrival {
+        delay: 0
+        time: 1680314340
+        uncertainty: 0
+      }
+      departure {
+        delay: 0
+        time: 1680314370
+        uncertainty: 0
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      stop_sequence: 23
+      arrival {
+        delay: 0
+        time: 1680314490
+        uncertainty: 0
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+    }
+    timestamp: 1680310561
+  }
+}
+

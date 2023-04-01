@@ -1,34 +1,60 @@
 import time
-import json
+
 from datetime import datetime
-from dataclasses import dataclass
+
+from typing import Type
 
 import requests as http
-import pandas as pd # Used for flattening JSON and parsing
+
+import pandas as pd
+import json
 
 import gtfs_realtime_pb2
 from google.protobuf.json_format import MessageToJson
 
-# Subway Endpoints
 
-@dataclass
-class ACE:
-    url = "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-ace"
+class Api(object):
+    """
 
-@dataclass
-class BDFM:
-    url = "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-bdfm"
+    TODO: 
+    - Add expired check
+    - Configure sling like urls
+    - Create setters and getters with @property 
+    
+    A python interface to the MTA GTFS API
 
-@dataclass
-class L:
-    url = "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-l"
+    Example usage:
 
-class MTAHttpClient:
+        To create an instance of the MTA API class
 
-    def __init__(self, api_key):
+        import twitter
+        api = mta.Api(
+            access_key='mta access key'
+        )
+
+        To fetch a subway station
+
+        api.GetSubwayStation(station_id)
+    
+    """
+
+    def __init__(
+        self,
+        api_key,
+        secret_key=None,
+        base_url=None,
+        ):
         self.api_key = api_key
+        self.secret_key = secret_key
+        self.base_url = base_url or "https://api-endpoint.mta.info/"
+        self._expired = False
+        self._endpoints = self._LoadEndpoints()
+        
 
     def get(self, endpoint):
+
+        if self.api_key is self._Expired():
+            return "Expired error"
 
         headers = {"x-api-key": self.api_key}
 
@@ -40,66 +66,41 @@ class MTAHttpClient:
 
         return gfeed
 
-class Subway:
+    def FeedtoJSON(message: gtfs_realtime_pb2.FeedMessage) -> str:
+ 
+        return "json"
 
-    def __init__(self, endpoint, httpclient):
-        self.endpoint = endpoint
-        self.httpclient = httpclient
+    def _LoadEndpoints(self) -> dict:
 
-    def getFullFeed(self):
+        "Loads endpoints from a urls.ini file"
 
-        d = MessageToJson(self.httpclient.get(self.endpoint))
+        return "Endpoints"
 
-        return d
-
-    def getSubwayStop(self, stop_id):
+    def _Expired(self) -> None:
 
         """
-        Gets all of the information for a stop
+        API Keys are redacted if they have been not been used within 30 days. This gracefully handles the process of an expired
+        API key when dealing with protobufs.
+
+        api_key -> jwt -> api_key > 30 and not expired
+        
         """
+        expired = 30
 
-        data = MessageToJson(self.httpclient.get(self.endpoint))
+        if expired >= 30:
 
-        j = json.loads(data)
-
-        df = pd.json_normalize(j, record_path=['entity']).dropna(how='all')
-    
-        stopTimeUpdate = df['tripUpdate.stopTimeUpdate'].dropna().explode().reset_index(drop=True).to_list()
-
-        formatted = pd.json_normalize(stopTimeUpdate)
-
-        resp = formatted.query(f'stopId == "{stop_id}"')
-    
-        return resp
-
-    def getSubwayLine(self, route):
-
-        """
-        Takes in a Subway Line and returns all the given information for the Line
-        """
-
-        # d = MessageToJson(self.httpclient.get(self.endpoint))
-
-        return print("getSubwayLine method is still a work in Progress")
-
-class API:
-
-    def __init__(self, api_key):
-        self.http = MTAHttpClient(api_key)
-
-    def subway(self, endpoint):
-        return Subway(endpoint, self.http)
+            self._expired = True
+        else:
+            return False
 
 # Example
 
 def main():
 
-    api = API(api_key="YOUR_API_KEY_HERE")
+    api = Api(api_key="API_KEY")
 
-    full_feed = api.subway(ACE.url).getFullFeed()
+    r = api.get("https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-l")
 
-    subway_stop = api.subway(ACE.url).getSubwayStop('A02N')
-
-    print(subway_stop)
+    print(r)
 
 main()
