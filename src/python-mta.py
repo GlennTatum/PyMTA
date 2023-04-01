@@ -9,7 +9,7 @@ import requests as http
 import pandas as pd
 import json
 
-import gtfs_realtime_pb2 as gtfs
+import gtfs_realtime_pb2
 from google.protobuf.json_format import MessageToJson
 
 
