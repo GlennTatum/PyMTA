@@ -81,7 +81,7 @@ class Transit:
 
         return GeneralTransitFeedParser.parse(stream=response)
 
-    def getSubwayLine(self, endpoint: str):
+    def Subway(self, endpoint: str):
         stream = self._get(endpoint)
 
         return Subway(stream=stream)
@@ -132,7 +132,7 @@ class Subway:
 def main():
     mta = Transit.from_credentials("SECRET_KEY")
 
-    line = mta.getSubwayLine("ACE")
+    line = mta.Subway("ACE")
 
     stop = line.stop("A02N")
 
