@@ -126,7 +126,7 @@ class TransitService:
 
 
 def main():
-    mta = TransitService("SECRET_KEY")
+    mta = TransitService("SECRETKEY")
 
     line = mta.service(Subway, "ACE")
 
