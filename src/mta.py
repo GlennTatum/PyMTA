@@ -1,12 +1,10 @@
 import gtfs_realtime_pb2 as gtfs
 import nyct_subway_pb2 as nyct
 
-from google.protobuf.json_format import MessageToDict
-
 import requests as r
 import json
 
-from typing import List
+from typing import Union, Type, List
 from pydantic import BaseModel
 
 MTA_ENDPOINTS = {
@@ -53,38 +51,37 @@ class GeneralTransitFeedParser(BaseParser):
             raise ParseError(f"GTFS Parse Error. Perhaps you forgot the api key? {err}")
 
     @staticmethod
-    def parseToDict(stream: gtfs.FeedMessage) -> dict:
+    def toDict(stream: gtfs.FeedMessage) -> dict:
+        from google.protobuf.json_format import MessageToDict
 
         return MessageToDict(stream)
 
 
-class Transit:
+class RequestHandler:
 
-    def __init__(self, credentials: str):
-        self.credentials = credentials
+    def __init__(self, auth):
+        self.auth = auth
 
-    @classmethod
-    def from_credentials(cls, auth: str):
-        return cls(auth)
-
-    @classmethod
-    def from_env(cls, auth):
-        """
-        Constructs an instance of Transit from environment variables
-        """
-        pass
-
-    def _get(self, endpoint: str) -> gtfs.FeedMessage():
-        headers = {"x-api-key": self.credentials}
+    def get(self, endpoint, as_dict: False | True):
+        headers = {"x-api-key": self.auth}
 
         response = r.get(MTA_ENDPOINTS[endpoint], headers=headers)
 
+        if as_dict:
+            stream = GeneralTransitFeedParser.parse(stream=response)
+            return GeneralTransitFeedParser.toDict(stream)
+
         return GeneralTransitFeedParser.parse(stream=response)
 
-    def Subway(self, endpoint: str):
-        stream = self._get(endpoint)
 
-        return Subway(stream=stream)
+# Basic interface for an MTA GTFS Service
+class Service:
+    """
+    Base GTFS Interface for all MTA Service Providers, Subway, MNR, LIRR
+    """
+
+    def stop(self, stop: str):
+        raise NotImplementedError(".stop() must be overridden.")
 
 
 class SubwayStop(BaseModel):
@@ -94,52 +91,50 @@ class SubwayStop(BaseModel):
     departure: int
 
 
-class Subway:
-    def __init__(self, stream):
-        self.stream = stream
+class Subway(Service):
 
-    def __repr__(self):
-        """
-        Representation as a formatted and indented stream of data.
-        """
-        pass
+    def __init__(self, endpoint, handle: RequestHandler):
+        self.endpoint = endpoint
+        self.handle = handle
 
-    def stop(self, stop) -> List[SubwayStop]:
-
-        msg = MessageToDict(self.stream)
+    def stop(self, stop: str):
+        response = self.handle.get(self.endpoint, as_dict=True)
 
         res = []
 
-        for entity in msg["entity"]:
+        for entity in response["entity"]:
             try:
                 if entity["tripUpdate"]["stopTimeUpdate"][0]["stopId"] == stop:
-                    # TODO convert entity["tripUpdate"]["stopTimeUpdate"] to munch object type
-
-                    # res.append(DefaultMunch.fromDict(entity["tripUpdate"], object()))
-
                     res.append(SubwayStop(id=entity["id"],
                                           # trainId = ...
                                           stopId=entity["tripUpdate"]["stopTimeUpdate"][0]["stopId"],
                                           arrival=entity["tripUpdate"]["stopTimeUpdate"][0]["arrival"]["time"],
                                           departure=entity["tripUpdate"]["stopTimeUpdate"][0]["departure"]["time"],
                                           ))
-
             except KeyError:
                 Warning("No TripUpdate for", entity["id"])
         return res
 
 
+class TransitService:
+    def __init__(self, auth):
+        self.auth = auth
+        self.handle = RequestHandler(auth)
+
+    def service(self, provider: Union[Type[Subway]], endpoint):
+        return provider(endpoint, self.handle)
+
+
 def main():
-    mta = Transit.from_credentials("SECRET_KEY")
+    mta = TransitService("SECRET_KEY")
 
-    line = mta.Subway("ACE")
+    line = mta.service(Subway, "ACE")
 
-    stop = line.stop("A02N")
+    stop = line.stop("A02S")
 
     for event in stop:
         print(event.arrival)
 
-    #print(stop)
 
 if __name__ == '__main__':
     main()
